@@ -215,3 +215,43 @@ h3 {
     }
     
 }
+
+/* Beneficios */
+
+.beneficios {
+    padding: 5rem 0;
+    border-bottom: 1px solid var(--grisSemi);
+}
+.beneficios-contenido {
+    padding-top: 5rem;
+}
+
+.beneficios-contenido-titulo {
+    text-align: center;
+}
+.beneficios-contenido-lista {
+    list-style: none;
+}
+.beneficios-contenido-lista li {
+    padding-bottom: 4rem;
+}
+@media (min-width: 768px) {
+    .beneficios {
+        padding: 15rem 0;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 5rem;
+    }
+    .beneficios-contenido-titulo {
+        font-size: 6rem;
+        text-align: initial;
+    }
+    .beneficios-contenido-lista {
+        font-size: 3rem;
+        list-style: none;
+    }
+    .beneficios-imagen {
+        display: flex;
+        align-items: center;
+    }
+}
